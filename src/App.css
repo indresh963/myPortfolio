@@ -16,7 +16,7 @@
   --sm-size:0.80rem;
   --md-size-1:1rem;
   --md-size-2:1.25rem;
-  --lg-size-1:2rem;
+  --lg-size-1:1.5rem;
   --lg-size-2:3rem;
   --primary-font:'Roboto', sans-serif;
   --secondary-font:'Poppins', sans-serif;
@@ -26,6 +26,7 @@ h1{
   font-family: var(--primary-font);
   font-weight: 800;
   line-height: 3.3rem;
+  letter-spacing: 1.5px;
   color:var(--primary-color);
   font-size: var(--lg-size-2);
   text-shadow: 0 0.5px 2px #000;
@@ -39,11 +40,30 @@ h3{
   font-size: var(--md-size-2);
 }
 
+h4{
+  font-family:var(--secondary-font) ;
+  font-weight: 600;
+  line-height: 1.5rem;
+  letter-spacing: 0.9px;
+  color:var(--primary-color);
+  font-size: var(--lg-size-1);
+  text-shadow: 0 0.4px 0.5px #000;
+}
 h5{
   font-family: var(--secondary-font);
   font-weight: 700;
   line-height: 1.6rem;
+  letter-spacing: 1px;
   color:var(--font-secondary);
+  font-size: var(--md-size-1);
+}
+
+p{
+  font-family: var(--primary-font);
+  font-weight: 400;
+  line-height: 1.6rem;
+  letter-spacing: 0.8px;
+  color:var(--primary-color);
   font-size: var(--md-size-1);
 }
 
@@ -52,13 +72,14 @@ h5{
 }
 img.navbar-brand{
  width: 4rem;
- mix-blend-mode: color-burn;
 }
 
 .active{
   color:var(--primary-color);
 }
-
+.navbar{
+  background-color: #fff;
+}
 .navbar-expand-lg .navbar-nav a.nav-link{
   margin:auto;
   font-family: var(--primary-font);
@@ -119,14 +140,36 @@ border:unset;
   box-shadow: 0 0.3px 2px #000;
 }
 
+.socials{
+  background-color: #fff;
+}
 .socials i{
-  color:var(--primary-color)
+  color:var(--primary-color);
 }
 
+.data-container{
+  border: 1px dashed var(--primary-color);
+  border-radius: 8px;
+}
+
+#my-img{
+  padding:0.3rem;
+  border:0.5px solid var(--primary-color);
+}
 @media(max-width:576px){
   :root{
     --lg-size-2:2.6rem;
     --md-size-2:1.17rem;
+  }
+
+  #bio{
+    text-align:justify;
+  }
+}
+
+@media(max-width:996px){
+  .heading,#name{
+    text-align: center;
   }
 }
 

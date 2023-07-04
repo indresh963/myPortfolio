@@ -30,12 +30,17 @@
   <title>Portfolio</title>
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+<body>
   <div id="root"></div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      once:true,
+      delay:1000,
+      offset:75,
+      duration:1000
+    });
   </script>
 </body>
 

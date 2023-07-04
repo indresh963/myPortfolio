@@ -3,9 +3,7 @@ import { Banner, Contact, Navbar, Projects, About, Footer, Socials } from './com
 function App() {
   return (
     <div>
-      <header>
-        <Navbar />
-      </header>
+      <Navbar />
       <main>
         <Socials />
         <Banner />
