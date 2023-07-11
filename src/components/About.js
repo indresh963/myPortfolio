@@ -9,7 +9,7 @@ function About() {
           <h4 className='heading'>About me</h4>
             <div className='row justify-content-lg-between justify-content-center align-items-center mt-4 gap-3'>
               <div className='col-lg-2 col-md-3 col-sm-4 col-6'>
-                <img src={require('../Assets/user.jfif')} alt='profile' id='my-img' className='img-fluid rounded-circle shadow' data-aos='zoom-in'/>
+                <img src={require('../Assets/user.jfif').default} alt='profile' id='my-img' className='img-fluid rounded-circle shadow' data-aos='zoom-in'/>
               </div>
               <div className=' col-lg-9 col-11' id='bio' data-aos='zoom-out'>
                 <p className='fw-bold fs-5 mb-2' id='name'>Indresh Chaudhary</p>

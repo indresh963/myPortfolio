@@ -3,7 +3,7 @@ import React from 'react'
 function Banner() {
   return (
     <section id='banner'>
-      <div className='container-fluid my-4'>
+      <div className='container-fluid mt-4 mb-5'>
         <div className='row justify-content-center align-items-center'>
           <div className='col-md-6 col-10 mb-md-0 mb-4' data-aos='fade-right'>
             <h3> &lt; &gt; Hi there ! &lt; / &gt;</h3>
@@ -39,7 +39,7 @@ function Banner() {
               </li>
             </ul>
             <a href='https://drive.google.com/file/d/1k-vXSIxKnI3Qm2omGX5yFsRLo2xkrqan/view?usp=sharing'
-              className='main-btn text-decoration-none d-inline-block' target='_blank' rel='noreferrer'>View Resume</a>
+              className='main-btn' target='_blank' rel='noreferrer'>View Resume</a>
           </div>
           <div className='col-md-4 col-8 text-center'>
             <img src={require('../Assets/banner.jpg')} alt='banner' className='img-fluid' data-aos='fade-left'
