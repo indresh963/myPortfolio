@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/myPortfolio/static/css/main.0f94f155.chunk.css",
+    "main.js": "/myPortfolio/static/js/main.e7ce2a00.chunk.js",
+    "main.js.map": "/myPortfolio/static/js/main.e7ce2a00.chunk.js.map",
+    "runtime-main.js": "/myPortfolio/static/js/runtime-main.307771fe.js",
+    "runtime-main.js.map": "/myPortfolio/static/js/runtime-main.307771fe.js.map",
+    "static/js/2.89b15938.chunk.js": "/myPortfolio/static/js/2.89b15938.chunk.js",
+    "static/js/2.89b15938.chunk.js.map": "/myPortfolio/static/js/2.89b15938.chunk.js.map",
+    "static/js/3.5a4f60e2.chunk.js": "/myPortfolio/static/js/3.5a4f60e2.chunk.js",
+    "static/js/3.5a4f60e2.chunk.js.map": "/myPortfolio/static/js/3.5a4f60e2.chunk.js.map",
+    "index.html": "/myPortfolio/index.html",
+    "static/css/main.0f94f155.chunk.css.map": "/myPortfolio/static/css/main.0f94f155.chunk.css.map",
+    "static/js/2.89b15938.chunk.js.LICENSE.txt": "/myPortfolio/static/js/2.89b15938.chunk.js.LICENSE.txt",
+    "static/media/banner.jpg": "/myPortfolio/static/media/banner.767d2a3b.jpg",
+    "static/media/digitalClock.png": "/myPortfolio/static/media/digitalClock.945470e6.png",
+    "static/media/littleLemon.png": "/myPortfolio/static/media/littleLemon.72e86672.png",
+    "static/media/logo.png": "/myPortfolio/static/media/logo.6e6fc696.png",
+    "static/media/pic.jpg": "/myPortfolio/static/media/pic.f0c4e7d7.jpg",
+    "static/media/user.jfif": "/myPortfolio/static/media/user.6f0e9fea.jfif",
+    "static/media/weatherApp.png": "/myPortfolio/static/media/weatherApp.e1cc14b4.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.307771fe.js",
+    "static/js/2.89b15938.chunk.js",
+    "static/css/main.0f94f155.chunk.css",
+    "static/js/main.e7ce2a00.chunk.js"
+  ]
+}
