@@ -2,12 +2,20 @@ import React from 'react'
 
 const projects = [
   {
+    name: 'The Movies App',
+    description: 'Discover a dynamic movie and TV show search experience with our TMDB clone project. Seamlessly harnessing API endpoints, our app offers robust functionalities like filters, search, video playback, image sliders, and full responsiveness.',
+    duration: '35 Days',
+    img: require('../Assets/theMoviesApp.png'),
+    url: 'https://indresh963.github.io/theMoviesApp',
+    techStacks: ['ReactJs', 'Bootstrap', 'CSS', 'version control']
+  },
+  {
     name: 'Little Lemon',
     description: 'Highly interactive and fully responsive food ordering website with features such as login, signup, cart,menu and table booking',
     duration: '26 Days',
     img: require('../Assets/littleLemon.png'),
     url: 'https://indresh963.github.io/little-lemon',
-    techStacks: ['ReactJs', 'Bootstrap', 'CSS']
+    techStacks: ['ReactJs', 'Bootstrap', 'CSS', 'version control']
   },
   {
     name: 'Digital Clock',
@@ -15,7 +23,7 @@ const projects = [
     duration: '5 Days',
     img: require('../Assets/digitalClock.png'),
     url: 'https://indresh963.github.io/clock/',
-    techStacks: ['Vanilla JS', 'Bootstrap', 'CSS']
+    techStacks: ['Vanilla JS', 'Bootstrap', 'CSS', 'version control']
   },
   {
     name: 'Weather App',
@@ -23,7 +31,7 @@ const projects = [
     duration: '3 Days',
     img: require('../Assets/weatherApp.png'),
     url: 'https://indresh963.github.io/weatherApp',
-    techStacks: ['ReactJs', 'Bootstrap']
+    techStacks: ['ReactJs', 'Bootstrap', 'version control']
   }
 ]
 function Projects() {
@@ -48,7 +56,9 @@ function Projects() {
                         project.techStacks.map(item=> `${item} `)
                       }</p>
                       <a href={project.url} className='main-btn mt-2' rel='noreferrer' target='_blank'>
-                        View Projects
+                        View Project <span className='ms-1'>
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </span>
                       </a>
                     </div>
                   </div>

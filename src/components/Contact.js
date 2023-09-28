@@ -28,10 +28,10 @@ function Contact() {
   const onSubmit = (value,onSubmitProps) => {
     emailjs.sendForm(service_id, template_id, form.current, public_key)
       .then(() => {
-        setStatus("Email sent successfully");
+        setStatus("Message sent successfully");
       })
       .catch(() => {
-        setStatus("Email couldn't be sent");
+        setStatus("Message couldn't be sent");
       })
       .finally(()=>{
         toast.current.classList.add('show');
@@ -54,7 +54,7 @@ function Contact() {
             <h4>Contact Me</h4>
             <div className=' mt-5 gap-3 row justify-content-center align-items-center'>
               <div className='col-md-5 col-10' data-aos='fade-right'>
-                <h2 className='mb-2'>Feel free to reach out and text me anytime! I'm always here ot chat.</h2>
+                <h2 className='mb-2'>Feel free to reach out and text me anytime! I'm always here to chat.</h2>
                 <h5>Looking forward to connecting with you! <span className='fs-3'>&#9996;</span></h5>
                 <div className='location p-2 bg-light rounded d-inline-block mt-2'>
                   <p className='mb-0'>Based in <strong>Uttar Pradesh India</strong></p>
@@ -67,7 +67,7 @@ function Contact() {
                   <div>
                     <div className='form-floating'>
                       <input {...formik.getFieldProps('name')} type='text' className='form-control' name='name' placeholder='name' id='name' />
-                      <label className='form-label z-0' htmlFor='name'>Name</label>
+                      <label className='form-label z-0 fw-normal' htmlFor='name'>Name</label>
                     </div>
                     <div className='error'>
                       {
@@ -78,7 +78,7 @@ function Contact() {
                   <div>
                     <div className='form-floating'>
                       <input {...formik.getFieldProps('email')} type='email' className='form-control' name='email' placeholder='Email' id='email' />
-                      <label className='form-label z-0' htmlFor='email'>Email</label>
+                      <label className='form-label z-0 fw-normal' htmlFor='email'>Email</label>
                     </div>
                     <div className='error'>
                       {
@@ -89,7 +89,7 @@ function Contact() {
                   <div>
                     <div className='form-floating'>
                       <input {...formik.getFieldProps('subject')} type='text' className='form-control' name='subject' placeholder='subject' id='subject' />
-                      <label className='form-label z-0' htmlFor='subject'>subject</label>
+                      <label className='form-label z-0 fw-normal' htmlFor='subject'>subject</label>
                     </div>
                     <div className='error'>
                       {
@@ -115,7 +115,7 @@ function Contact() {
       </div>
       <div ref={toast} className="toast position-fixed mt-4 top-0 start-50 translate-middle-x z-2 ">
         <div className="toast-header">
-          <strong className="me-auto text-primary">Email Confirmation</strong>
+          <strong className="me-auto text-dark">Message Confirmation</strong>
           <button type="button" className="btn-close" data-bs-dismiss="toast"></button>
         </div>
         <div className="toast-body">

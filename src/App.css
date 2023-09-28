@@ -229,10 +229,35 @@ footer h5{
   color:var(--font-tertiary);
   font-weight: 400;
 }
+
+label, strong, input, textarea{
+  font-family: var(--secondary-font);
+}
+
+@media(max-width:776px){
+  :root{
+    --lg-size-3:2.5rem;
+    --lg-size-2:1.7rem;
+    --lg-size-1:1.4rem;
+    --md-size-2:1.17rem;
+    --md-size-1:0.95rem;
+  }
+}
+
 @media(max-width:576px){
   :root{
-    --lg-size-2:2.6rem;
+    --lg-size-3:2.2rem;
+    --lg-size-2:1.7rem;
+    --lg-size-1:1.325rem;
     --md-size-2:1.17rem;
+    --md-size-1:0.88rem;
+  }
+
+  h5{
+    line-height: 1.73rem;
+  }
+  h1{
+    line-height: 2.6rem;
   }
 
   #bio{

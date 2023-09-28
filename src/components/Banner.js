@@ -38,7 +38,7 @@ function Banner() {
                 <i className="fa-brands fa-python"></i>
               </li>
             </ul>
-            <a href='https://drive.google.com/file/d/1k-vXSIxKnI3Qm2omGX5yFsRLo2xkrqan/view?usp=sharing'
+            <a href='https://drive.google.com/file/d/12Aj091GF8piG5QY7hAf-f86VLYA-sNNt/view?usp=drive_link'
               className='main-btn' target='_blank' rel='noreferrer'>View Resume</a>
           </div>
           <div className='col-md-4 col-8 text-center'>
